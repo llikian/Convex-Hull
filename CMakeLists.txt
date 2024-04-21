@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.25)
-project(Giftwrap)
+project(ConvexHull)
 
 find_package(SDL2 REQUIRED)
 

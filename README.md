@@ -1,4 +1,4 @@
-# Caterpillar
+# Convex Hull
 ## Project Description
 This project is an implementation of the [Quickhull Algorithm](https://en.wikipedia.org/wiki/Quickhull) that allows to calculate the
 convex hull of a set of point and then render it and the set.
