@@ -15,7 +15,13 @@ add_executable(
         src/Set.cpp
 )
 
-target_link_libraries(${PROJECT_NAME} PUBLIC ${SDL2_LIBRARIES})
+target_include_directories(${PROJECT_NAME} PUBLIC
+        ${SDL2_INCLUDE_DIRS}
+)
+
+target_link_libraries(${PROJECT_NAME} PUBLIC
+        ${SDL2_LIBRARIES}
+)
 
 # Sets executable folder to bin
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
