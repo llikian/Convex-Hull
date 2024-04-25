@@ -32,7 +32,7 @@ cmake --build build -j
 
 Then you can run it using:
 ```shell
-bin/Giftwrap
+bin/ConvexHull
 ```
 
 ## Credits
